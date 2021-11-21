@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: Karla;
+    /* overflow: hidden; */
+}
+
+.main{
+    display: grid;
+    background-color: hsl(0, 0%, 96%);
+    width: 800px;
+    height: 600px;
+    margin: 10px auto auto auto;    
+    border-radius: 15px;
+    box-sizing: border-box;
+    align-self: center;
+    overflow: hidden;
+    
+}
+.main .heading{
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 25px;
+    border-radius: 15px;
+    /* height: 30vh; */
+}
+.main .heading h1{
+    color: rgb(48, 131, 199) ;
+}
+.main .heading h2{
+    color: hsl(71, 73%, 54%) ;
+}
+.main .heading h3{
+    color: hsl(200, 7%, 84%) ;
+}
+
+.below{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.below .left , .below .right{
+    padding-top: 30px;
+    padding-left: 30px;
+    color: white;
+    font-weight: 30px;
+    font-size: 20px;
+
+}
+.left{
+    background-color: hsl(179, 62%, 43%);
+
+}
+.left input{
+    background-color:hsl(71, 73%, 54%)  ;
+    border-radius: 5px;    
+    color: white;
+    font-size: 20px;
+    width: 300px;
+    height: 40px;
+}
+
+.right{
+    background-color: skyblue;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.lastpara{
+    text-align: center;
+    font-size: 20px;
+}
+
+    

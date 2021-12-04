@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: skyblue;
+        }
+        header{
+            text-align: center;
+            font-size: large;
+        }
+        form{
+            background-color: gray;
+            margin: 60px 90px 90px 90px;
+            padding-top: 10px ;
+            padding-left: 66px;
+            text-align: center;
+            /* justify-content: center;
+            align-items: center */
+        }
+        p{
+            /* padding-left: 450px; */
+            font-size: 35px;
+            font-weight: 80px;
+        }
+        table{
+            padding-left: 350px;
+        }
+        td{
+            padding-top: 7px;
+            padding-bottom: 7px;
+        }
+        #op,textarea{
+            width: 300px;
+        }
+        button{
+            background-color: rgb(16, 152, 161);
+            height: 100px;
+            width: 200px;
+            font-size: 40px;
+            margin-top: 10px;
+            align-self: center;
+            margin-bottom: 30px;
+        }
+      
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Good Vibees</h1>
+    </header>
+
+    <form action="#">
+        <p>
+            tell us yourself
+        </p>
+        <table>
+
+            <tr>
+                <td>Name</td>
+                <td>
+                    <input id="op" type="text" placeholder="Eneter Your NAme">
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input id="op" type="email" placeholder="Eneter Your emai">
+                </td>
+            </tr>
+            <tr>    
+                <td>On a scale of 1-10, how good was it?</td>
+                <td>
+                    <input id="op" type="number" placeholder="rate your self">
+                </td>
+            </tr>
+    
+            <tr>
+                <td>Where did it happen</td>
+                <td>
+                    <select id="cars" name="cars">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="fiat">Fiat</option>
+                        <option value="audi">Audi</option>
+                      </select>
+            </tr>
+    
+            <tr>
+                <td>At what time of day did it happen?</td>
+                <td> <input type="radio" name="time" ><label >morning</label><br>
+                    <input type="radio" name="time" ><label >evening</label><br>
+                    <input type="radio" name="time" ><label >night</label><br>
+                </td>
+                
+    
+            </tr>
+    
+            <tr>
+                <td>What emotions did you experience?</td>
+                <td>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1"> I have a bike</label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label for="vehicle2"> I have a car</label><br>
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                    <label for="vehicle3"> I have a boat</label><br>
+                </td>
+            </tr>
+    
+            <tr>
+                <td>Please describe your positive experience.</td>
+                <td>
+                    <textarea name="oppoo" id="" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+
+            
+        </table>
+        <button type="submit">submit</button>
+    </form>
+
+
+    
+</body>
+</html>
